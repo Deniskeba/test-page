@@ -1,0 +1,93 @@
+.main
+    margin-top: 10vh
+    margin-bottom: 119px
+    &__filter
+        margin-top: 350px
+        height: 420px
+        position: absolute
+        z-index: -1
+        background: #F6FBFE
+
+    &__title
+        text-align: center
+        font-weight: 700
+        margin-bottom: 50px
+        font-size: 30px
+        font-style: normal
+        font-weight: 500
+        line-height: 38px
+        letter-spacing: 0em
+    &__box
+        display: flex
+    &__left
+        padding-left: 150px
+    &__text
+        width: 300px
+        height: 95px
+        margin-top: 2vh
+        font-family: montserrat
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 19px
+        letter-spacing: 0em
+    &__options
+        margin-top: 300px
+    &__filters
+        display: inline-block
+        font-size: 14px
+        font-weight: 500
+        line-height: 18px
+        position: absolute
+        font-size: 14px
+        line-height: 18px
+        text-transform: uppercase
+        transform: rotate(-90deg)
+    &__ul
+        display: inline-block
+        margin-left: 4vw
+        margin-top: -22px
+        font-style: normal
+        font-weight: lighter
+        font-size: 13px
+        line-height: 20px
+        letter-spacing: 0.03em
+        list-style: none
+    &__list
+        line-height: 30px
+        transition: all 0.5s linear
+        &:hover
+            text-decoration: underline
+            font-weight: 700
+            
+        &::before
+            content: '✓'
+    &__count
+        display: inline-block
+        padding-top: 175px
+        margin-left: 440px
+        float: right
+        &::after
+            content: '| 4'
+    &__delete
+        margin-top: 25vh
+        display: block
+        position: absolute
+        font-style: normal
+        font-weight: 500
+        font-size: 13px
+        line-height: 30px
+        &:hover
+            text-decoration: underline
+            font-weight: bold
+        &::after
+            position: absolute
+            margin-top: -8px
+            margin-left: 5px
+            content: '  X'
+
+
+        
+
+
+
